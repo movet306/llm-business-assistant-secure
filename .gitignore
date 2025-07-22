@@ -1,0 +1,9 @@
+# 🔐 API key dosyası
+.env
+
+# 🧹 Gereksiz Python klasör ve dosyaları
+__pycache__/
+*.pyc
+
+# 🧠 VSCode klasörü (gereksiz config)
+.vscode/
