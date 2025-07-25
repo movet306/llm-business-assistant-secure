@@ -78,7 +78,7 @@ st.markdown("Ask questions about your product dataset, and let the AI assistant 
 st.markdown(
     """
     <div style='margin-top: -5px; text-align: center; color: #666666; font-size: 16px; font-style: italic;'>
-        <span style='font-weight: 500;'>Prepared by</span> <span style='font-weight: 600;'>Mert Ovet</span>
+        <span style='font-weight: 500;'>Builty by</span> <span style='font-weight: 600;'>Mert Ovet</span>
     </div>
     """,
     unsafe_allow_html=True
@@ -141,8 +141,8 @@ if st.session_state.get(chat_key):
         role = msg["role"].capitalize()
         pdf.multi_cell(0, 10, txt=f"{role}: {msg['content']}\n")
         pdf.ln()
-    pdf_output = pdf.output(dest='S').encode('latin-1')
-    st.download_button("📄 Download Chat History (PDF)", pdf_output, "chat_history.pdf", mime="application/pdf")
+    pdf_output = pdf.output(dest='S').encode('utf-8')
+st.download_button("📄 Download Chat History (PDF)", pdf_output, "chat_history.pdf", mime="application/pdf")
 
 
 

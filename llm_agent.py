@@ -1,6 +1,9 @@
 import openai
 import os
 import streamlit as st
+from dotenv import load_dotenv
+
+load_dotenv()  # <-- .env dosyasını yükle
 
 # Load API Key once
 api_key = os.getenv("OPENAI_API_KEY")
@@ -44,7 +47,6 @@ def ask_llm(question, context=None, model="gpt-4o", system_prompt="You are a hel
 
     except Exception as e:
         return f"❌ LLM API error: {e}"
-
 
 
 
