@@ -2,7 +2,8 @@
 
 An AI-powered business assistant app that allows you to upload your product datasets and interact with them in natural language. Built with Streamlit, OpenAI API, and a fully customizable context pipeline.
 
-![Streamlit Screenshot](https://llm-business-assistant-secure-9kg2r7csm7vzzem5che2tb.streamlit.app/)
+[🌐 Live Demo](https://llm-business-assistant-secure-9kg2r7csm7vzzem5che2tb.streamlit.app/)
+
 
 ---
 
