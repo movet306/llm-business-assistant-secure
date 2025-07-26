@@ -23,7 +23,7 @@ This app is designed for business analysts, product managers, or entrepreneurs w
 |---------|-------------|
 | 📂 Upload Product File | Upload `.csv`, `.json`, or `.xlsx` files |
 | 🧠 LLM Integration | Ask business questions using GPT-4o, GPT-4, or GPT-3.5-turbo |
-| ✅Dynamic system prompt customization (🧠 _Set Custom System Prompt_ box) 
+| ✅Dynamic system prompt customization | 🧠 _Set Custom System Prompt_ box | 
 | 📊 Context Generation | Dynamic context generation from uploaded dataset |
 | 🛠️ Admin Panel | Reload default or uploaded data on demand |
 | 📑 Export Options | Download entire chat as CSV or PDF |
