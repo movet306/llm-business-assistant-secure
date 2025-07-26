@@ -142,7 +142,7 @@ App is securely deployed here:
 
 Secrets set manually under **[App Settings > Secrets]**:
 ```ini
-OPENAI_API_KEY = your-openai-key
+OPENAI_API_KEY = The API KEY that I created from OpenAI
 ```
 
 ---
