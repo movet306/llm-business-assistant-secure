@@ -125,7 +125,7 @@ OPENAI_API_KEY=sk-...
 https://github.com/movet306/llm-business-assistant-secure.git
 
 # 2. Create .env file
-OPENAI_API_KEY=your-key-here
+OPENAI_API_KEY= I put down the API KEY that I created from OpenAI
 
 # 3. Install packages
 pip install -r requirements.txt
