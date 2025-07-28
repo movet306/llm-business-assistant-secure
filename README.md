@@ -167,3 +167,9 @@ Feel free to reach out via [LinkedIn](https://www.linkedin.com/in/mertovet/) or 
 
 ## 📄 License
 MIT License
+
+---
+## Project Owner
+
+**Mert Ovet**  
+[LinkedIn: linkedin.com/in/mertovet](https://www.linkedin.com/in/mertovet)
